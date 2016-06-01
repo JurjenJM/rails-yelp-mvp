@@ -35,6 +35,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-rails'
+  gem 'bootstrap-sass'
+  gem 'font-awesome-sass'
+  gem 'simple_form'
+  gem 'autoprefixer-rails'
 end
 
 group :development do
